@@ -1,0 +1,68 @@
+/* header.css */
+
+.header-sections {
+  background: #1a1a1a;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px 0;
+  
+  /* Remove position: fixed */
+  /* This will be a normal component in document flow */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.top-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-infos {
+  display: flex;
+  gap: 30px;
+}
+
+.contact-itemss {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #cccccc;
+}
+
+.social-linkss {
+  display: flex;
+  gap: 15px;
+}
+
+.social-link {
+  color: #cccccc;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #5fc8c5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .top-bar-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .contact-infos {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+}
