@@ -3,7 +3,7 @@ import Header from '../components/header'
 import AdminTeam from '../components/adminteam';
 import Services from '../components/services';
 import Community from '../components/community';
-import Reviews from '../components/reviews';
+
 
 
 const Home = () => {
@@ -15,7 +15,6 @@ const Home = () => {
             <Services />
             <Community />
             <AdminTeam />
-            <Reviews />
         </>
     )
 }
