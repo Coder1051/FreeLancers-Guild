@@ -6,7 +6,6 @@ import {
   Menu,
   X
 } from 'lucide-react';
-import { FaInstagram, FaTwitter, FaFacebook ,FaTiktok ,FaLinkedinIn  } from 'react-icons/fa';
 import './css/navigation.css';
 
 const Navigation = () => {
