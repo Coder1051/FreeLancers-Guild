@@ -1,4 +1,5 @@
 // App.js
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SiteLayout from './pages/sitelayout';
 import Home from './pages/home';
@@ -7,8 +8,18 @@ import Course from './pages/courses';
 import Blog from './pages/blogs';
 import Contact from './pages/contact-us';
 import Error from './pages/error';
+import "./app.css"
+import Loader from "./loader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2500); // 2.5 seconds
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <Loader />;
   return (
     <Router>
       <Routes>
