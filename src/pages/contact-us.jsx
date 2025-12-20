@@ -300,7 +300,7 @@ const Contact = () => {
                       <div className="contact-text">
                         <h5>Location</h5>
                         <p>Remote & Worldwide</p>
-                        <span>Global team, local expertise</span>
+                        <span>A3/2-H Commercial Valencia Housing Society, Lahore</span>
                       </div>
                     </div>
 

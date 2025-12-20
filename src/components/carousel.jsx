@@ -11,17 +11,17 @@ const Carousel = () => {
     {
       id: 1,
       backgroundImage: {
-        desktop: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920&h=1080&fit=crop',
-        mobile: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=768&h=1024&fit=crop'
+        desktop: './images/Banner1.jpeg?w=1920&h=1080&fit=crop',
+        mobile: './images/Banner1.jpeg?w=768&h=1024&fit=crop'
       },
       title: 'Transform Your Freelancing Career',
       subtitle: 'Master In-Demand Skills',
       description: 'Join thousands of successful freelancers who have accelerated their careers with our comprehensive training programs and expert guidance.',
       primaryBtn: 'Start Your Journey',
-      secondaryBtn: 'Watch Demo',
+      // secondaryBtn: 'Watch Demo',
       stats: [
-        { icon: Users, number: '5,000+', label: 'Students Trained' },
-        { icon: BookOpen, number: '50+', label: 'Expert Courses' },
+        { icon: Users, number: '1,000+', label: 'Students Trained' },
+        { icon: BookOpen, number: '10+', label: 'Expert Courses' },
         { icon: Award, number: '95%', label: 'Success Rate' }
       ]
     },
@@ -31,15 +31,15 @@ const Carousel = () => {
         desktop: 'https://images.unsplash.com/photo-1669173034261-f1a595981815?w=1920&h=1080&fit=crop',
         mobile: 'https://images.unsplash.com/photo-1669173034261-f1a595981815?w=768&h=1024&fit=crop'
       },
-      title: 'Premium Courses for Professionals',
-      subtitle: 'Learn From Industry Experts',
-      description: 'Access cutting-edge curriculum designed by industry leaders. From web development to digital marketing, master the skills that clients are looking for.',
-      primaryBtn: 'Browse Courses',
-      secondaryBtn: 'Free Preview',
+      title: 'We offer Premium Services ',
+      subtitle: 'Get it done from Industry Experts',
+      description: 'Get your task done from industry experts and professionals as per the international Quality Standards in the most economical prices. Your Satisfaction is our foremost consideration.',
+      primaryBtn: 'Get Quotation',
+      // secondaryBtn: 'Get Quotation',
       stats: [
-        { icon: BookOpen, number: '20+', label: 'Course Categories' },
-        { icon: Users, number: '1,000+', label: 'Active Learners' },
-        { icon: Award, number: '4.9/5', label: 'Student Rating' }
+        { icon: BookOpen, number: '20+', label: 'Services Categories' },
+        { icon: Users, number: '100+', label: 'Satisfied Clients ' },
+        { icon: Award, number: '30+', label: 'International Clients' }
       ]
     },
     {
@@ -52,7 +52,7 @@ const Carousel = () => {
       subtitle: 'From Beginner to Expert',
       description: 'Our step-by-step approach takes you from learning fundamental skills to building a thriving freelance business with consistent high-paying clients.',
       primaryBtn: 'Get Started',
-      secondaryBtn: 'Success Stories',
+      // secondaryBtn: 'Success Stories',
       stats: [
         { icon: Award, number: '$500K+', label: 'Student Earnings' },
         { icon: Users, number: '2,500+', label: 'Alumni Network' },
@@ -164,14 +164,14 @@ const Carousel = () => {
                     <p className="slide-description">{slide.description}</p>
                     
                     <div className="slide-actions">
-                      <button className="btn-primary">
+                      <button href="https://forms.gle/YABhnXPNYPR6qCB87" target="_blank"  className="btn-primary">
                         {slide.primaryBtn}
                         <ArrowRight size={18} />
                       </button>
-                      <button className="btn-secondary">
+                      {/* <button className="btn-secondary">
                         <Play size={16} />
                         {slide.secondaryBtn}
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>

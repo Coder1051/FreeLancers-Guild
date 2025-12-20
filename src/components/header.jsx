@@ -19,7 +19,7 @@ const Header = () => {
             </span>
           </div>
           <div className="social-linkss">
-            <a href="https://www.instagram.com/free_lancers_guild?igsh=aGx4N21sd3JicHRt" target="_blank" className="social-link" aria-label="Instagram">
+            <a href="https://www.instagram.com/free.lancersguild?igsh=MXAxb2dvczIwODl3" target="_blank" className="social-link" aria-label="Instagram">
               <FaInstagram size={16} />
             </a> 
             <a href="" className="social-link" target="_blank" aria-label="Twitter">

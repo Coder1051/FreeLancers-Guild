@@ -61,9 +61,9 @@ const AdminTeam = () => {
             id: 1,
             name: "Ubaid-ur-Rehman",
             role: "President Free Lancers Guild",
-            bio: "Leading digital innovation with 1+ years in tech management and startup scaling.",
+            bio: "Bringing over 3+ years of hands-on experience in the tech industry, from teaching in-demand skills to successfully implementing real-world solutions for both national and international clients.",
             image: "./images/ubaid.jpeg",
-            skills: ["Strategic Planning", "Team Leadership & Planning", "Project Management "],
+            skills: ["Leadership", "Project management", "Organisational management","Teaching","Digital Marketing","Graphic Designing","Video Editing"],
             // contact:[
             //     {
             //         email:"",
@@ -89,13 +89,13 @@ const AdminTeam = () => {
         },
         {
             id: 3,
-            name: "Jawad Ur Rehman",
-            role: "DG FLG",
+            name: "Eman Zara",
+            role: "General Secretary",
             bio: [
-                "Python app developer (kivy and flutter). I am 18 year passionate python developer. I am Nustian . I am looking forward to make FLG a great platform to learn and earn .",
-                "The most effective way to do it , is to do it "],
-            image: "./images/jawad.jpeg",
-            skills: ["Python Developer", "Process Optimization", "Quality Assurance"],
+                "The founder of SOCHO company and Laema Corale. Enhusiast in engineering, she's a creative individual passionate about developing sustainable technology.",
+                " Eman has a  clear plan and handles all the pros and cons with ease."],
+            image: "./images/eman.jpeg",
+            skills: ["Organisational Management ", "HR Management", "Tech Production ","Idea Execution Management"],
             // contact: [
             //     {
             //         email: "",
